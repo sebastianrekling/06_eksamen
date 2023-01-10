@@ -27,6 +27,10 @@
                 </a>
             </div>
         </div>
+        <div class="header_nav">
+            <a class="nav-link" href="portfolio.html"><strong>PORTFOLIO</strong></a>
+            <a class="nav-link" href="om_mig.html">OM MIG</a>
+        </div>
     </header>
     <div class="grid_04">
         <div class="nav_00">
@@ -42,11 +46,29 @@
         <div class="grid_item">
             <h1>Grundlæggende Animation</h1>
             <p class="p_italic">4 uger - Tema 4</p>
-            <p>Det første tema har til formål at introducere  uddannelsens forløb og KEA som skole. Derudover introduceres der også til ressourcer og programmer, der er nødvendige som multimediedesigner, herunder Adobe Creative Cloud og webhosting. Underviserne gav også indblik i studieretningerne og jobmuligheder efter uddannelsen.</p>
+            <p>Her introduceres der til programmeringssproget, JavaScript, ved at anvende det i udviklingen af et spil. Til spilelementerne bruges der CSS animationer, og figurerne laves i Adobe Illustrator. </p>
             <h2>Indhold og læringsmål</h2>
-            <p>Introugens faglige indhold bestod af oplæg fra undervisere om uddannelses læringsmål. Derudover, blev jeg vejledt i både køb og opsætning af eget webdomæne. Ugens opgave var et præsentationskort, som blev lavet efter grundlæggende gennemgang af Adobe XD. Vi lærte blandt andet, hvordan man bruger fill, borders og text-tool. </p>
+            <p>Indenfor moderne webudvikling er JavaScript essentielt som kodesprog, da det gør det muligt at skabe dynamiske og avancerede hjemmesider. <br> Læringsmålet for dette tema var, at forstå og anvende funktioner, metoder, variabler, events, betingelser og math.random i henhold til JavaScript, for at få CSS animationer til at fungere i et spil. Hertil blev det vist, hvordan man bruger Firefox Inspector som redskab.</p>
+            <p>Jeg fik viden om, hvordan man engagerer brugeren i spildesignet gennem teori og moderne spilkonventioner. Jeg arbejdede med aktivitets- og statemachine-diagrammer, som bruges til at planlægge spillets interaktive flow.</p>
+            <p>I designprocessen undervises der om formgivnings- kompositionsprincipper i UI-elementer - i forlængelse af dette, også hvilke typer filer der bruges som udvekslingsformater. Jeg fik viden om teknikker til skitsering og idegenerering til både papirprototyper og digitalt i Adobe Illustrator.</p>
         </div>
-        <a class="button-link" href="https://sgrekling.dk/kea/04_animation/website/index.html" target="_blank">Se mit spil og tilhørende website her</a>
+        <div class="grid_item">
+            <img class="img_04" src="img/04_pos.jpeg" alt="css_positioner">
+            <img class="screendump_03" src="img/04_math.jpeg" alt="math-random-kode">
+        </div>
+        <div class="grid_item">
+            <img class="screendump_04" src="img/04_aktivitetsdiagram.png" alt="aktivitetsdiagram">
+            <img class="screendump_03" src="img/04_state-machine_diagram.png" alt="state-machine-diagram">
+        </div>
+        <div class="grid_item">
+            <h2>Løsning af temaopgave</h2>
+            <p>Mit spil går ud på, at der flyver gode og dårlige elementer ind fra højre mod venstre side af skærmen. Hvis spilleren klikker på en god, bliver der tilføjet point og omvendt, hvis det er en dårlig.<br>
+            Til at visualisere spillets struktur og flow fremstillede jeg først et aktivitets-diagram og derefter et state-machine-diagram.</p>
+            <p>Temaet indeholdte mange delopgaver som hjælp til at forstå principperne i JavaScript. Det primære website byggere hele tiden videre på det forrige, og det var gavnende for min indlæring, at dele temaopgaven op i mindre bidder.</p>
+            <p>I spillet ønskede jeg ikke at elementerne blev ved med at flyve ind med samme position, men derimod genstarte fra et tilfældig punkt. Derfor definerede jeg fire klasser, som hver har en unik position på x- og y-aksen ved at bruge top og left.</p>
+            <p>Derfor benyttede jeg math.random funktionen i JavaScript til at give hver element en ny random position ved at lave en variabel, der hedder randomPos. Denne variable bruger math.random til at vælge et tilfældigt tal mellem 1 og 4, hvilket henviser til positionerne jeg har defineret i CSS. <br> Herefter bruges randomPos i sammenhæng med addClass, der tilføjer en ny CSS klasse til alle de spilelementer, som flyver ind på skærmen. På den måde får figurerne altså en ny position, hver gang de genstarter deres animation.</p>
+            <a class="button-link" href="https://sgrekling.dk/kea/04_animation/website/index.html" target="_blank">Se mit spil og website her</a>
+        </div>
     </div>
     <footer>
         <a target="_blank" href="https://www.instagram.com/sebastianrekling/">
