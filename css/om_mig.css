@@ -1,0 +1,14 @@
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--m-spacing);
+}
+
+.about_section_content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--m-spacing);
+}
+/* footer {
+    margin-top: auto;
+} */
