@@ -24,7 +24,7 @@ h2 {
     width: 100%;
     max-width: auto;
     align-content: center;
-    margin-top: var(--m-spacing);
+    margin-top: var(--xs-spacing);
 }
 
 .grid_item {

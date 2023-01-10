@@ -1,7 +1,7 @@
 // Lav variablen "btn", der henviser til ".toggle-btn"
 const btn = document.querySelector(".toggle-btn");
 // Lav variablen "menu", der henviser til ".nav-links"
-const menu = document.querySelector(".header_nav");
+const menu = document.querySelector(".toggle-menu");
 
 // Lav funktionen "toggleMenu()" med følgende funktionalitet
 function toggleMenu() {
