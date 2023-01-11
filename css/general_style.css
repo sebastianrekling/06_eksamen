@@ -1,18 +1,18 @@
 @font-face {
     font-family: helveticaregular;
-    src: url(/fonts/helveticaneue-webfont.woff2);
+    src: url(fonts/helveticaneue-webfont.woff2);
 }
 @font-face {
     font-family: helveticaitalic;
-    src: url(/fonts/helveticaneue-italic-webfont.woff2);
+    src: url(fonts/helveticaneue-italic-webfont.woff2);
 }
 @font-face {
     font-family: helveticamedium;
-    src: url(/fonts/helveticaneue-medium-webfont.woff2);
+    src: url(fonts/helveticaneue-medium-webfont.woff2);
 }
 @font-face {
     font-family: helveticabold;
-    src: url(/fonts/helveticaneue-bold-webfont.woff2);
+    src: url(fonts/helveticaneue-bold-webfont.woff2);
 }
 
 :root {
