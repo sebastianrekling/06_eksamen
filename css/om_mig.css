@@ -35,12 +35,12 @@
 }
 
 .grid_xp_item h3 {
-    font-size: var(--s-skrift);
+    font-size: var(--m-skrift);
 }
 
-/* .grid_xp_item p {
+.grid_xp_item p {
     font-size: var(--s-skrift);
-} */
+}
 
 .img_om_os {
     padding: var(--s-spacing);
@@ -80,13 +80,5 @@
     .cv,
     .uddannelse {
         align-self: flex-start;
-    }
-
-    .grid_xp_item h3 {
-        font-size: var(--l-skrift);
-    }
-    
-    .grid_xp_item p {
-        font-size: var(--m-skrift);
     }
 }
