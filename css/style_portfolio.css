@@ -1,5 +1,5 @@
 .portfolio_flex {
-    font-family: helveticaregular;
+    font-family: "helveticaregular";
     font-size: var(--s-skrift);
     display: flex;
     gap: 30px;
@@ -19,7 +19,7 @@
 }
 
 .temanr {
-    font-family: helveticamedium;
+    font-family: "helveticamedium";
     font-size: var(--l-skrift);
 }
 

@@ -1,5 +1,5 @@
 .flex_forside a {
-    font-family: helveticaregular;
+    font-family: "helveticaregular";
     background-color: white;
     padding: 25px;
     padding-left: 25px;
@@ -39,6 +39,6 @@
 
 .h1_forside {
     text-align: center;
-    font-family: helveticabold;
+    font-family: "helveticabold";
     margin-top: 1.75rem;
 }
