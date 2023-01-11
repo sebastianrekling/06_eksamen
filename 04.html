@@ -48,9 +48,9 @@
             <p class="p_italic">4 uger - Tema 4</p>
             <p>Her introduceres der til programmeringssproget, JavaScript, ved at anvende det i udviklingen af et spil. Til spilelementerne bruges der CSS animationer, og figurerne laves i Adobe Illustrator. </p>
             <h2>Indhold og læringsmål</h2>
-            <p>Indenfor moderne webudvikling er JavaScript essentielt som kodesprog, da det gør det muligt at skabe dynamiske og avancerede hjemmesider. <br> Læringsmålet for dette tema var, at forstå og anvende funktioner, metoder, variabler, events, betingelser og math.random i henhold til JavaScript, for at få CSS animationer til at fungere i et spil. Hertil blev det vist, hvordan man bruger Firefox Inspector som redskab.</p>
-            <p>Jeg fik viden om, hvordan man engagerer brugeren i spildesignet gennem teori og moderne spilkonventioner. Jeg arbejdede med aktivitets- og statemachine-diagrammer, som bruges til at planlægge spillets interaktive flow.</p>
-            <p>I designprocessen undervises der om formgivnings- kompositionsprincipper i UI-elementer - i forlængelse af dette, også hvilke typer filer der bruges som udvekslingsformater. Jeg fik viden om teknikker til skitsering og idegenerering til både papirprototyper og digitalt i Adobe Illustrator.</p>
+            <p>Indenfor moderne webudvikling er JavaScript essentiel som kodesprog, da det gør det muligt at skabe dynamiske og avancerede hjemmesider. <br> Læringsmålet for dette tema er, at forstå og anvende funktioner, metoder, variabler, events og betingelser i henhold til JavaScript, for at få CSS animationer til at fungere i et spil. Hertil undervises der i, hvordan man bruger Firefox Inspector som redskab til fejlfinding.</p>
+            <p>Vi opnåede viden om, hvordan man engagerer brugeren i spildesignet gennem teori og moderne spilkonventioner. Vi arbejdede med aktivitets- og statemachine-diagrammer, og brugte dem til at planlægge spillets interaktive flow.</p>
+            <p>I designprocessen undervises der om formgivnings- kompositionsprincipper i UI-elementer - og i forlængelse af det, også hvilke typer filer der bruges som udvekslingsformater. Vi fik viden om teknikker til skitsering og idegenerering til både papir og blyant samt digitalt i Adobe Illustrator.</p>
         </div>
         <div class="grid_item">
             <img class="img_04" src="img/04_pos.jpeg" alt="css_positioner">
@@ -62,11 +62,11 @@
         </div>
         <div class="grid_item">
             <h2>Løsning af temaopgave</h2>
-            <p>Mit spil går ud på, at der flyver gode og dårlige elementer ind fra højre mod venstre side af skærmen. Hvis spilleren klikker på en god, bliver der tilføjet point og omvendt, hvis det er en dårlig.<br>
+            <p>Konceptet i mit spil er, at der flyver gode og dårlige elementer ind fra højre mod venstre side af skærmen. Hvis spilleren klikker på en god, bliver der tilføjet point og omvendt, hvis man klikker på en dårlig.<br>
             Til at visualisere spillets struktur og flow fremstillede jeg først et aktivitets-diagram og derefter et state-machine-diagram.</p>
-            <p>Temaet indeholdte mange delopgaver som hjælp til at forstå principperne i JavaScript. Det primære website byggere hele tiden videre på det forrige, og det var gavnende for min indlæring, at dele temaopgaven op i mindre bidder.</p>
-            <p>I spillet ønskede jeg ikke at elementerne blev ved med at flyve ind med samme position, men derimod genstarte fra et tilfældig punkt. Derfor definerede jeg fire klasser, som hver har en unik position på x- og y-aksen ved at bruge top og left.</p>
-            <p>Derfor benyttede jeg math.random funktionen i JavaScript til at give hver element en ny random position ved at lave en variabel, der hedder randomPos. Denne variable bruger math.random til at vælge et tilfældigt tal mellem 1 og 4, hvilket henviser til positionerne jeg har defineret i CSS. <br> Herefter bruges randomPos i sammenhæng med addClass, der tilføjer en ny CSS klasse til alle de spilelementer, som flyver ind på skærmen. På den måde får figurerne altså en ny position, hver gang de genstarter deres animation.</p>
+            <p>I spillet ønskede jeg ikke at elementerne blev ved med at flyve ind med samme position, men derimod genstartede fra et tilfældig punkt. Derfor definerede jeg fire klasser, som hver havde en unik position på x- og y-aksen ved at bruge top og left.</p>
+            <p>I JavaScript benyttede jeg derefter math.random funktionen til at give hvert element en ny random position ved at lave en variabel, der hedder randomPos. Denne variable bruger math.random til at vælge et tilfældigt tal mellem 1 og 4, hvilket henviser til positionerne jeg har defineret i CSS. <br> Herefter bruges randomPos i sammenspil med addClass, der tilføjer en ny CSS klasse til alle de spilelementer, som flyver ind på skærmen. På den måde får figurerne en ny position, hver gang de genstarter deres animation.</p>
+            <p>Temaet indeholdte mange delopgaver, som hjalp til at forstå principperne i JavaScript. Det primære website byggede hele tiden videre på det forrige, og personligt var det gavnende for min indlæring, at dele temaopgaven op i mindre bidder.</p>
             <a class="button-link" href="https://sgrekling.dk/kea/04_animation/website/index.html" target="_blank">Se mit spil og website her</a>
         </div>
     </div>
