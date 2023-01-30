@@ -24,11 +24,22 @@
     max-width: 75%;
 }
 
+.img_05_skilt {
+    background-color: white;
+    padding: var(--xxs-spacing) ;
+}
+
 .img_06 {
     margin-top: 5rem;
     margin-bottom: var(--s-spacing);
     max-width: 485px;
 }
+
+    .screendump_06 {
+    padding: var(--xxs-spacing);
+    background-color: white;
+    box-sizing: border-box;
+    }
 
 .p_italic {
     font-family: "helveticaitalic";
@@ -45,7 +56,6 @@ h2 {
 #card_01 {
     width: 100%;
     align-content: center;
-    margin-top: var(--xs-spacing);
     max-width: 980px;
 }
 
@@ -249,12 +259,6 @@ h2 {
     .img_06 {
         margin-top: 6rem;
         margin-bottom: var(--s-spacing);
-    }
-
-    .screendump_06 {
-        padding: var(--xs-spacing);
-        background-color: white;
-        box-sizing: border-box;
     }
 
     .header_06 {
