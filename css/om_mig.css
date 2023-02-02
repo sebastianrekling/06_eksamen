@@ -42,8 +42,8 @@
     font-size: var(--s-skrift);
 }
 
-.img_om_os {
-    padding: var(--s-spacing);
+.img_om_mig {
+    padding: var(--xs-spacing);
     margin-top: var(--l-spacing);
     background-color: white;
     box-sizing: border-box;
