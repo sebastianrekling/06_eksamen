@@ -20,8 +20,8 @@
 }
 
 .box_portfolio:hover {
-  border-style: solid;
-  transition: 50ms all ease-in;
+  background-color: var(--baggrund-farve);
+  transition: 200ms all ease-in;
 }
 
 .temanr {
