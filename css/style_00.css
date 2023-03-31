@@ -265,7 +265,7 @@ a:hover {
 
 .button-link {
   font-size: var(--s-skrift);
-  font-weight: bold;
+  box-sizing: border-box;
   border: 1px;
   text-align: center;
   background-color: white;
