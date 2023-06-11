@@ -25,8 +25,6 @@
   --h2-font-size: clamp(1.5rem, 1.4211rem + 0.3509vw, 1.75rem);
   --h1-font-size: clamp(1.75rem, 1.5921rem + 0.7018vw, 2.25rem);
 
-  margin: 50px;
-
   --xxs-spacing: 0.4rem;
   --xs-spacing: 1rem;
   --s-spacing: 1.5rem;
@@ -45,6 +43,7 @@ body {
   margin-right: auto;
   background-color: var(--baggrund-farve);
   max-width: 1250px;
+  min-height: 100vh;
 }
 
 main {
@@ -63,7 +62,7 @@ iframe {
 
 footer {
   display: flex;
-  margin-block: var(--m-spacing);
+  padding-block: var(--m-spacing);
   justify-content: center;
 }
 
@@ -139,6 +138,7 @@ li {
 .header_flex {
   display: flex;
   justify-content: space-between;
+  margin-top: var(--l-spacing);
   margin-bottom: var(--xl-spacing);
 }
 
@@ -207,7 +207,7 @@ li {
   }
 
   /* IKKE BURGERMENU */
-  :root {
+  body {
     margin: var(--xs-spacing);
   }
 
