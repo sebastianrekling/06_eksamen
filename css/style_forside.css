@@ -24,14 +24,9 @@
   font-family: "helveticaregular";
   background-color: white;
   padding: 25px;
-  font-size: clamp(1rem, 0.9053rem + 0.4211vw, 1.3rem);
+  font-size: var(--h4-font-size);
 }
 
 #h1_forside {
   font-family: "helveticaregular";
-}
-
-#h2_forside {
-  font-family: "helveticaregular";
-  font-size: clamp(1rem, 0.9053rem + 0.4211vw, 1.3rem);
 }
