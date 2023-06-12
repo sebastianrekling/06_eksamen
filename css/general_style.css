@@ -22,8 +22,8 @@
   --p-font-size: clamp(0.875rem, 0.8355rem + 0.1754vw, 1rem);
   --h4-font-size: clamp(1rem, 0.9211rem + 0.3509vw, 1.25rem);
   --h3-font-size: clamp(1.25rem, 1.1711rem + 0.3509vw, 1.5rem);
-  --h2-font-size: clamp(1.5rem, 1.4211rem + 0.3509vw, 1.75rem);
-  --h1-font-size: clamp(1.75rem, 1.5921rem + 0.7018vw, 2.25rem);
+  --h2-font-size: clamp(1.4rem, 1.2895rem + 0.4912vw, 1.75rem);
+  --h1-font-size: clamp(1.6rem, 1.3947rem + 0.9123vw, 2.25rem);
 
   --xxs-spacing: 0.4rem;
   --xs-spacing: 1rem;
