@@ -34,8 +34,8 @@
   box-sizing: border-box;
 }
 
-.p_italic {
-  font-family: "helveticaitalic";
+.active {
+  font-family: "helveticaregular";
 }
 
 h2 {
@@ -64,7 +64,7 @@ li a:hover {
 
 .button-link {
   font-size: var(--p-font-size);
-  font-family: "helveticaitalic";
+  font-style: italic;
   box-sizing: border-box;
   border: 1px;
   text-align: center;

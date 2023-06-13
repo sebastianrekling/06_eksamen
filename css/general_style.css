@@ -1,18 +1,10 @@
 @font-face {
+  font-family: "helveticalight";
+  src: url(../fonts/helveticaneue-light.woff2);
+}
+@font-face {
   font-family: "helveticaregular";
   src: url(../fonts/helveticaneue-webfont.woff2);
-}
-@font-face {
-  font-family: "helveticaitalic";
-  src: url(../fonts/helveticaneue-italic-webfont.woff2);
-}
-@font-face {
-  font-family: "helveticamedium";
-  src: url(../fonts/helveticaneue-medium-webfont.woff2);
-}
-@font-face {
-  font-family: "helveticabold";
-  src: url(../fonts/helveticaneue-bold-webfont.woff2);
 }
 
 :root {
@@ -73,7 +65,7 @@ footer {
 }
 
 p {
-  font-family: "helveticaregular";
+  font-family: "helveticalight";
   font-size: var(--p-font-size);
   line-height: var(--m-spacing);
   overflow-wrap: break-word;
@@ -81,12 +73,12 @@ p {
 }
 
 h1 {
-  font-family: "helveticamedium";
+  font-family: "helveticaregular";
   font-size: var(--h1-font-size);
 }
 
 h2 {
-  font-family: "helveticamedium";
+  font-family: "helveticaregular";
   font-size: var(--h2-font-size);
 }
 
@@ -110,20 +102,18 @@ ul {
 }
 
 a {
-  font-family: "helveticaregular";
+  font-family: "helveticalight";
   text-decoration: none;
   color: black;
 }
 
 li {
-  padding-bottom: 6vh;
+  padding-bottom: 6.5vh;
   font-size: var(--h4-font-size);
-  margin-inline: 10px;
   min-width: 125px;
 }
 
 .header_nav a {
-  font-family: "helveticaregular";
   font-size: var(--h4-font-size);
   margin-block: var(--m-spacing);
   margin-left: var(--xxl-spacing);
@@ -207,9 +197,6 @@ li {
   }
 
   /* IKKE BURGERMENU */
-  body {
-    margin: var(--xs-spacing);
-  }
 
   .logo {
     max-width: 125px;
@@ -283,9 +270,13 @@ li {
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1250px) {
   iframe,
   #card_01 {
     margin-block: var(--xs-spacing);
+  }
+
+  body {
+    margin: var(--xs-spacing);
   }
 }

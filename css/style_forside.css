@@ -21,12 +21,16 @@
 }
 
 .flex_forside a {
-  font-family: "helveticaregular";
   background-color: white;
   padding: 25px;
   font-size: var(--h4-font-size);
 }
 
 #h1_forside {
-  font-family: "helveticaregular";
+  font-family: "helveticalight";
+  padding-bottom: var(--xs-spacing);
+}
+
+h3 {
+  font-family: "helveticalight";
 }
