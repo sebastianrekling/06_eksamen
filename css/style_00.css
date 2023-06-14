@@ -36,6 +36,7 @@
 
 .active {
   font-family: "helveticaregular";
+  font-weight: 900;
 }
 
 h2 {
@@ -47,7 +48,7 @@ h2 {
 }
 
 li a:hover {
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 #card_01 {
